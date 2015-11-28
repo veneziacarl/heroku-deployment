@@ -1,0 +1,8 @@
+---
+title: "Heroku Deployment"
+type: "challenge"
+visibility: "assign"
+description: "Deploy a Sinatra application on the Heroku platform."
+tags: "heroku, sinatra, deployment"
+ignore:
+- "heroku-deployment.md"

@@ -1,0 +1,14 @@
+<h1><%= restaurant["name"] %></h1>
+
+<a href="<%= gmaps_url(restaurant) %>">View on Map</a>
+
+<ul>
+  <li>Address: <%= restaurant["address"] %></li>
+  <li>City: <%= restaurant["city"] %></li>
+  <li>State: <%= restaurant["state"] %></li>
+  <li>Zip: <%= restaurant["zip"] %></li>
+</ul>
+
+<div class="description">
+  <%= restaurant["description"] %>
+</div>

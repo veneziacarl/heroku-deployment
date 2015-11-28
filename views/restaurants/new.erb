@@ -1,0 +1,39 @@
+<h1>New Restaurant</h1>
+
+<form class="pure-form pure-form-aligned" action="/restaurants" method="post">
+  <fieldset>
+    <div class="pure-control-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" placeholder="Address">
+    </div>
+
+    <div class="pure-control-group">
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" placeholder="City" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="state">State</label>
+      <input type="text" id="state" name="state" placeholder="State" minlength="2" maxlength="2" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="zip">Zip</label>
+      <input type="text" id="zip" name="zip" placeholder="Zip" minlength="5" maxlength="5" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="description">Description</label>
+      <textarea type="text" id="description" name="description" placeholder="Description" cols="40" rows="10" minlength="25" required></textarea>
+    </div>
+
+    <div class="pure-controls">
+      <input type="submit" class="pure-button pure-button-primary">
+    </div>
+  </fieldset>
+</form>
