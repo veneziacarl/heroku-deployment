@@ -1,6 +1,10 @@
 require "sinatra"
 require "pg"
 
+configure :development do
+  set :db_config, { dbname: "restaurants" }
+end
+
 def db_connection
   begin
     connection = PG.connect(dbname: "restaurants")
